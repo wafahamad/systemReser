@@ -9,6 +9,7 @@ import { AboutusComponent } from './lesComponents/aboutus/aboutus.component';
 import { ClientsComponent } from './lesComponents/clients/clients.component';
 import { BlogComponent } from './lesComponents/blog/blog.component';
 import { ReservationCComponent } from './lesComponents/reservation-c/reservation-c.component';
+import { LoginComponent } from './lesComponents/login/login.component';
 
 const routes: Routes = [
   {path:'home', title:'home',component:HomeComponent},
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:'clients',title:'clients', component:ClientsComponent},
   {path:'blog',title:'blog', component:BlogComponent},
   {path:'reservation',title:'reservation',component:ReservationCComponent},
+  {path:'login',title:'login',component:LoginComponent},
   {path:'', redirectTo:'home', pathMatch:'full'}
 
 ];
