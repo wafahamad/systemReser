@@ -16,6 +16,7 @@ import { AboutusComponent } from './lesComponents/aboutus/aboutus.component';
 import { ClientsComponent } from './lesComponents/clients/clients.component';
 import { BlogComponent } from './lesComponents/blog/blog.component';
 import { LoginComponent } from './lesComponents/login/login.component';
+import { AdminComponent } from './lesComponents/admin/admin.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { LoginComponent } from './lesComponents/login/login.component';
     AboutusComponent,
     ClientsComponent,
     BlogComponent,
-    LoginComponent
+    LoginComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
